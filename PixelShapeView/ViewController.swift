@@ -45,9 +45,14 @@ class ViewController: UIViewController {
             self.displayView.addSubview(rectangleShapeView)
         case 1:
             let bottomRightRectangleShapeView = BottomRightRectangleShapeView(frame: self.displayView.bounds,
-                                                                     backColor: UIColor.randomChineseTraditionColor(),
-                                                                     overlapColor: UIColor.randomChineseTraditionColor())
+                                                                              backColor: UIColor.randomChineseTraditionColor(),
+                                                                              overlapColor: UIColor.randomChineseTraditionColor())
             self.displayView.addSubview(bottomRightRectangleShapeView)
+        case 2:
+            let diagonalRectangleShapeView = DiagonalRectanglesShapeView(frame: self.displayView.bounds,
+                                                                         backColor: UIColor.randomChineseTraditionColor(),
+                                                                         overlapColor: UIColor.randomChineseTraditionColor())
+            self.displayView.addSubview(diagonalRectangleShapeView)
         default:
             break
         }

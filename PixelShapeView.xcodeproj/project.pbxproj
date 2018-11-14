@@ -16,6 +16,7 @@
 		31010CBE219CC45A00D2F36E /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31010CBD219CC45A00D2F36E /* ShapeView.swift */; };
 		31010CC0219CC92200D2F36E /* BottomRightRectangleShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31010CBF219CC92200D2F36E /* BottomRightRectangleShapeView.swift */; };
 		31010CC2219CCA1C00D2F36E /* EntourageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31010CC1219CCA1C00D2F36E /* EntourageColor.swift */; };
+		31010CC4219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31010CC3219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		31010CBD219CC45A00D2F36E /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		31010CBF219CC92200D2F36E /* BottomRightRectangleShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRightRectangleShapeView.swift; sourceTree = "<group>"; };
 		31010CC1219CCA1C00D2F36E /* EntourageColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntourageColor.swift; sourceTree = "<group>"; };
+		31010CC3219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalRectanglesShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				31010CBD219CC45A00D2F36E /* ShapeView.swift */,
 				31010CBB219CBDE600D2F36E /* RectangleShapeView.swift */,
 				31010CBF219CC92200D2F36E /* BottomRightRectangleShapeView.swift */,
+				31010CC3219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift */,
 			);
 			path = PixelShapeViews;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				31010CA9219CBDC500D2F36E /* AppDelegate.swift in Sources */,
 				31010CC0219CC92200D2F36E /* BottomRightRectangleShapeView.swift in Sources */,
 				31010CBE219CC45A00D2F36E /* ShapeView.swift in Sources */,
+				31010CC4219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift in Sources */,
 				31010CBC219CBDE600D2F36E /* RectangleShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
