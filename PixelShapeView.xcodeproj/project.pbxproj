@@ -17,6 +17,7 @@
 		31010CC0219CC92200D2F36E /* BottomRightRectangleShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31010CBF219CC92200D2F36E /* BottomRightRectangleShapeView.swift */; };
 		31010CC2219CCA1C00D2F36E /* EntourageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31010CC1219CCA1C00D2F36E /* EntourageColor.swift */; };
 		31010CC4219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31010CC3219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift */; };
+		31010CC6219CCF7800D2F36E /* StarShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31010CC5219CCF7800D2F36E /* StarShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		31010CBF219CC92200D2F36E /* BottomRightRectangleShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRightRectangleShapeView.swift; sourceTree = "<group>"; };
 		31010CC1219CCA1C00D2F36E /* EntourageColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntourageColor.swift; sourceTree = "<group>"; };
 		31010CC3219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalRectanglesShapeView.swift; sourceTree = "<group>"; };
+		31010CC5219CCF7800D2F36E /* StarShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +71,8 @@
 				31010CA8219CBDC500D2F36E /* AppDelegate.swift */,
 				31010CAA219CBDC500D2F36E /* ViewController.swift */,
 				31010CAC219CBDC500D2F36E /* Main.storyboard */,
-				31010CAF219CBDC600D2F36E /* Assets.xcassets */,
 				31010CB1219CBDC600D2F36E /* LaunchScreen.storyboard */,
+				31010CAF219CBDC600D2F36E /* Assets.xcassets */,
 				31010CB4219CBDC600D2F36E /* Info.plist */,
 			);
 			path = PixelShapeView;
@@ -83,6 +85,7 @@
 				31010CBB219CBDE600D2F36E /* RectangleShapeView.swift */,
 				31010CBF219CC92200D2F36E /* BottomRightRectangleShapeView.swift */,
 				31010CC3219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift */,
+				31010CC5219CCF7800D2F36E /* StarShapeView.swift */,
 			);
 			path = PixelShapeViews;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				31010CAB219CBDC500D2F36E /* ViewController.swift in Sources */,
 				31010CA9219CBDC500D2F36E /* AppDelegate.swift in Sources */,
 				31010CC0219CC92200D2F36E /* BottomRightRectangleShapeView.swift in Sources */,
+				31010CC6219CCF7800D2F36E /* StarShapeView.swift in Sources */,
 				31010CBE219CC45A00D2F36E /* ShapeView.swift in Sources */,
 				31010CC4219CCC0400D2F36E /* DiagonalRectanglesShapeView.swift in Sources */,
 				31010CBC219CBDE600D2F36E /* RectangleShapeView.swift in Sources */,

@@ -53,6 +53,11 @@ class ViewController: UIViewController {
                                                                          backColor: UIColor.randomChineseTraditionColor(),
                                                                          overlapColor: UIColor.randomChineseTraditionColor())
             self.displayView.addSubview(diagonalRectangleShapeView)
+        case 3:
+            let starShapeView = StarShapeView(frame: self.displayView.bounds,
+                                              backColor: UIColor.randomChineseTraditionColor(),
+                                              overlapColor: UIColor.randomChineseTraditionColor())
+            self.displayView.addSubview(starShapeView)
         default:
             break
         }
